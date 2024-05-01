@@ -1,0 +1,122 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+/* Basic styles for the header and navigation */
+header {
+    background-color: #333;
+    color: grey;
+    padding: 20px;
+    text-align: center;
+}
+/* Styles for navigation */
+nav {
+    background-color: #454;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Styles for sections */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Styles for projects */
+  img {
+    width: 20%; /* Adjust image width as needed */
+    margin-left: 20px;
+    border-radius: 10px;
+   /* Spacing between image and text */
+}
+.project {
+    margin-bottom: 0px;
+    
+}
+
+.project h3 {
+    margin-top: 10px;
+}
+
+/* Styles for contact form */
+#contact-form {
+    max-width: 400px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contact-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #0056b3;
+}
+footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .nawng_nahu{
+            width: 40%;
+        }
+        .about_nahu{
+            width: 50%;
+            text-align: center;
+            padding-top: 20%;
+           
+        }
+        .article_ni_lucio{
+        display: flex;    
+        }
+      @media (max-width:760px){ 
+        .article_ni_lucio{
+            display:block;  
+        }
+        .nawng_nahu{
+            width: 50%;
+        }
+        .about_nahu{
+           
+            padding-top: 3%;
+           
+        }
+    }
